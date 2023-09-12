@@ -1,0 +1,87 @@
+body {
+  font-size: 9px;
+  font-family: Roboto, Arial;
+  background-color: #042654;
+  color: whitesmoke;
+  margin: 0px 5px;
+}
+
+.payment-methods {
+  border-width: 0;
+  border-style: solid;
+  padding: 20px 15px;
+  background-color: steelblue;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 3px;
+  grid-column-gap: 15px;
+  align-items: center;
+}
+
+img {
+  width: 70px;
+}
+
+.cit-logo {
+  margin: 20px 0px 5px 0px;
+}
+
+.logo {
+  width: 170px;
+}
+
+.dash-button {
+  height: 5px;
+  width: 60px;
+  padding: 0px;
+  border: none;
+  border-radius: 3px;
+  margin: 0px;
+  background-color: burlywood;
+}
+
+.feedback-button {
+  margin-top: 35px;
+  font-size: 16px;
+  background-color: burlywood;
+  color: darkblue;
+  font-weight: 700;
+  border: none;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin-bottom: 35px;
+}
+
+.cit-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.links {
+  display: grid;
+  height: 50px;
+ grid-template-columns: 10px 1fr;
+}
+
+.nom {
+  
+}
+
+.name-info {
+  
+}
+
+.link-name {
+  margin: 0;
+  padding-bottom: 0px;
+  font-size: 12px;
+  font-weight: 600;
+  
+}
+
+.link-subname {
+  margin: 0;
+}
