@@ -1,20 +1,64 @@
 body {
-  font-size: 9px;
+  font-size: 13px;
   font-family: Roboto, Arial;
-  background-color: #042654;
+  background-color: rgb(0, 46, 100);
   color: whitesmoke;
-  margin: 0px 5px;
+  margin: 0;
+}
+
+.about, .faq {
+  margin: 30px 15px;
+}
+
+.content-name {
+  font-size: 30px;
+}
+
+.qualities {
+  padding: 30px 0px;
+}
+
+.page-navigation {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-column-gap: 10px;
+}
+
+.pages {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.page-nom {
+  background-color: burlywood;
+  color: rgb(0, 39, 121);
+  font-size: 22px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 8px;
+  padding: 8px 2px;
+}
+
+.navigation {
+  width: 24px;
+}
+
+.payment-div {
+  display: grid;
+  grid-template-rows: 1fr;
 }
 
 .payment-methods {
   border-width: 0;
   border-style: solid;
-  padding: 20px 15px;
-  background-color: steelblue;
-  width: 400px;
+  padding: 30px 25px;
+  background-color: rgb(0, 35, 70);
+  right: 0;
+  left: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-row-gap: 3px;
+  grid-row-gap: 10px;
   grid-column-gap: 15px;
   align-items: center;
 }
@@ -29,6 +73,10 @@ img {
 
 .logo {
   width: 170px;
+}
+
+.active {
+  color: burlywood;
 }
 
 .dash-button {
@@ -67,12 +115,9 @@ img {
 }
 
 .nom {
-  
+  color: 10AAF0;
 }
 
-.name-info {
-  
-}
 
 .link-name {
   margin: 0;
@@ -83,5 +128,6 @@ img {
 }
 
 .link-subname {
+  font-size: 9px;
   margin: 0;
 }
